@@ -1,0 +1,12 @@
+#kwadrat {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
