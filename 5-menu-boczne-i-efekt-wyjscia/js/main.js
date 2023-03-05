@@ -3,7 +3,7 @@ $(document).ready(function () {
         $('.main-menu').toggleClass('open');
     });
     $('.main-menu-item a').click(function (e) {
-        e.preventDefult();
+        e.preventDefault();
         $('body').fadeOut(2000, function(){
 window.location.href=$(e.target).attr('href');
         }); 
